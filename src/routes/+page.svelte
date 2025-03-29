@@ -46,19 +46,19 @@
 </script>
 
 <svelte:head>
-    <title>proPianist1124</title>
+    <title>dromiothepig</title>
 </svelte:head>
 
 <main>
     <h2 style="display: flex; align-items: center;">
-        proPianist1124
+        dromiothepig
         <div class="tooltip">
             <img
                 src="/favicon.ico"
                 width="35"
                 height="35"
                 style="border: 1px solid #3e3e3e; border-radius: 50px; cursor: pointer;"
-                alt="propianist1124 favicon"
+                alt="dromiothepig favicon"
             />
             <span class="tooltiptext">Leave a Review</span>
         </div>
@@ -83,7 +83,7 @@
     <hr />
     <h3 style="color: var(--accent-3);">socialz</h3>
     <div style="display: flex; align-items: center; gap: 0px 10px;">
-        <a href="https://github.com/propianist1124" target="_blank">
+        <a href="https://github.com/dromiothepig" target="_blank">
             github<svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -99,7 +99,7 @@
                 <path d="M7 17 17 7" />
             </svg>
         </a>
-        <a href="https://x.com/propianist1124" target="_blank">
+        <a href="https://x.com/dromiothepig" target="_blank">
             twitter<svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -151,11 +151,7 @@
     <hr />
     <h3 style="color: var(--accent-4);">contact</h3>
     {#if error}
-        <div
-            class="alert"
-        >
-            Please fill in all fields!
-        </div>
+        <div class="alert">Please fill in all fields!</div>
     {/if}
     <form on:submit|preventDefault={contactForm}>
         <div
@@ -186,14 +182,15 @@
         >
     </form>
 </main>
-<dialog id="reviews"> <!-- style="height: 350px;" -->
+<dialog id="reviews">
     <h2 style="margin-bottom: 1px;">Reviews</h2>
     <span style="display: block; font-style: italic; margin-bottom: 20px;"
         >Leave me a review, asshole.</span
     >
     <button class="accent2" style="margin: auto;">Sign in with Discord</button>
-    <!-- <Review>hello there</Review>
-    <Review>hello there</Review>
-    <Review>hello there</Review>
-    <Review>hello there</Review> -->
+    <div style="height: 350px; overflow: auto;">
+        {#each { length: 3 }}
+            <Review author="dromio">fuck you nigga</Review>
+        {/each}
+    </div>
 </dialog>

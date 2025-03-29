@@ -1,4 +1,4 @@
-# 👋 I'm proPianist1124
+# 👋 I'm dromiothepig
 
 ## What am I
 chicken
@@ -15,8 +15,3 @@ I&apos;m a fullstack developer with experience in…
 
 ## Where am I active
 I started programming in 2021 with Replit as my main editor. Since then I have moved on from Replit and have started to build more complex products and apps, as well as learning more languages and Javascript frameworks. I am currently with [Diaboli Systems](https://github.com/diaboli-systems).
-
-## My Stats
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=proPianist1124&theme=cobalt)
-
-![proPianist1124's GitHub stats](https://github-readme-stats.vercel.app/api?username=propianist1124&show_icons=true&theme=onedark)

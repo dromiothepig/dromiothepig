@@ -6,6 +6,7 @@
     --background-lightest: #505050;
     --text-color: #d3d2d2;
     --text-color-darker: #b3b3b3;
+    --text-color-darkest: #838282;
     --accent-1: #e76ece;
     --accent-2: #6e8ae7;
     --accent-3: #6ee780;
@@ -104,6 +105,7 @@ dialog {
     color: var(--text-color);
     border: 1px solid var(--background-lighter);
     width: 400px;
+    border-radius: 5px;
 }
 
 dialog[open]::backdrop {

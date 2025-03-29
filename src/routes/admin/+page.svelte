@@ -22,14 +22,20 @@
                 "Content-Type": "application/json",
             },
             body: JSON.stringify(data),
-        }).then(res => res.json());
+        }).then((res) => res.json());
 
-        if (res.status == 401) error = "Invalid credentials";
+        if (res.status == 401) {
+            error = "The fuck you want nigger!"; // Invalid credentials
+        } else if (res.status == 200) {
+            alert("Signed in as admin!");
+        } else {
+            error = "Unable to sign in.";
+        }
     }
 </script>
 
 <svelte:head>
-    <title>admin</title>
+    <title>admin / dromiothepig</title>
 </svelte:head>
 
 <main>
