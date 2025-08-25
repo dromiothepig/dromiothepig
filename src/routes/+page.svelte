@@ -1,5 +1,6 @@
 <script>
   import { Button } from "$lib/components/ui/button/index.js";
+  import { Input } from "$lib/components/ui/input/index.js";
 
   const posts = [
     {
@@ -15,11 +16,9 @@
   ];
 </script>
 
-<div class="container mx-auto p-4 mt-15 max-w-3xl">
-  <h2 class="text-4xl border w-[40px] h-[40px] flex align-items justify-center font-['Leckerli One', serif]">d</h2>
-  <div class="mb-6 flex items-center justify-between">
-    <h1 class="text-2xl font-bold">dromothepig</h1>
-  </div>
+<title>home / dromiothepig</title>
+<main>
+  <h1 class="header">dromothepig</h1>
   <p class="mb-6">Greetings, welcome to my website.</p>
   <p class="mb-6">
     I am a <a href="https://nextjs.org" target="_blank">nextjs</a> and
@@ -58,4 +57,4 @@
       </div>
     </a>
   {/each}
-</div>
+  </main>
